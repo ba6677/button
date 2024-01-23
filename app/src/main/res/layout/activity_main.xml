@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,6 +21,8 @@
         android:layout_height="wrap_content"
         android:onClick="Click"
         android:text="click me"
+        android:textColor="RRGGBB"
+        android:width="50dp"
         tools:layout_editor_absoluteX="160dp"
         tools:layout_editor_absoluteY="368dp" />
 
